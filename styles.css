@@ -329,14 +329,14 @@ li>a:hover{
     grid-auto-rows: minmax(50px, auto);
 }
 .one{
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 1;
     background-color: #E8FCE8;  
     padding: 10%;
  
   }
 .two{
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 2;
     background-color: #EBF7EB; 
     padding: 10%;
@@ -344,7 +344,7 @@ li>a:hover{
       
 }
 .three{
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 4;
     padding: 50 50 50 50;
 }
@@ -354,21 +354,21 @@ img {
 }
 
 .four{
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 3;
     margin-top: 50px;
     padding-left: 10px;
 }
 
 .five{
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 5;
     margin-top: 50px;
     padding-left: 10px;
 }
 
 .six{
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 6;
     background-color: #EBF7EB;
     margin-top: 50px;
@@ -376,7 +376,7 @@ img {
 }
 
 .seven{
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 7;
     background-color: #E8FCE8;
     margin-top: 50px;
@@ -384,7 +384,7 @@ img {
 }
 
 .eight{
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 8;
     background-color: #E8FCE8;
     margin-top: 50px;
@@ -392,14 +392,14 @@ img {
 }
 
 .nine{
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 9;
     background-color: #EBF7EB;
     margin-top: 50px;
     padding-left: 10px;
 }
 .ten{
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 10;
     margin-top: 50px;
     margin-bottom: 80px;
