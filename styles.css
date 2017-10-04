@@ -288,10 +288,7 @@ td{
 }
 }
 @media screen and (max-width: 599px){
-    html, body {
-    margin: 0;
-    padding: 0;
-}
+
 header {
         
     background-image: url("header.jpg");
