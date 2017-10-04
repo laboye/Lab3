@@ -295,8 +295,32 @@ td{
 header {
         
     background-image: url("header.jpg");
-    height: 300;
+    height: 150;
+    padding: 30 30 0 30;
+    position: relative;
+    z-index: 1;
+    font-size: 12;
 
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+.linkbox{
+    background-color: green;
+    position: fixed;
+    bottom: -50;
+    height: 100px;
+    width: 100%;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 12%;
+}
+li>a:hover{
+    color: gray;
 }
 
 .wrapper{
