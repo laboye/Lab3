@@ -295,11 +295,7 @@ td{
 header {
         
     background-image: url("header.jpg");
-    height: 150;
-    padding: 30 30 0 30;
-    position: relative;
-    z-index: 1;
-    font-size: 12;
+    height: 300;
 
 }
 
