@@ -161,7 +161,9 @@ header {
     position: relative;
     z-index: 1;
 }
-
+header>p {
+    padding-left: 100px;
+}
 .links{
     text-decoration: none;
     color: white;
