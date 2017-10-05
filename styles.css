@@ -289,154 +289,148 @@ td{
 
 }
 }
-    @media screen and (max-width: 599px){
-        html, body {
-            margin: 0;
-            padding: 0;
-        }
-        header {
-                
-            background-image: url("header.jpg");
-            height: 150;
-            padding: 30 30 0 30;
-            position: relative;
-            z-index: 1;
-            font-size: 20;
-        } 
-        .wrapper{
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-auto-rows: minmax(50px, auto);
-        }
-        .one{
-            grid-column: 1;
-            grid-row: 1;
-            background-color: #E8FCE8;  
-            padding: 10%;
-         
-          }
-        .two{
-            grid-column: 1;
-            grid-row: 2;
-            background-color: #EBF7EB; 
-            padding: 10%;
-            
-              
-        }
-        .three{
-            grid-column: 1;
-            grid-row: 4;
-            padding: 50 50 50 50;
-        }
-        img {
-            width: 100%;
-            height: auto;
-        }
-        
-        .four{
-            grid-column: 1;
-            grid-row: 3;
-            margin-top: 50px;
-            padding-left: 10px;
-        }
-        .five{
-            grid-column: 1;
-            grid-row: 5;
-            margin-top: 50px;
-            padding-left: 10px;
-        }
-        
-        .six{
-            grid-column: 1;
-            grid-row: 6;
-            background-color: #EBF7EB;
-            margin-top: 50px;
-            padding-left: 10px;
-        }
-        
-        .seven{
-            grid-column: 1;
-            grid-row: 7;
-            background-color: #E8FCE8;
-            margin-top: 50px;
-            padding-left: 10px;
-        }
-        
-        .eight{
-            grid-column: 1;
-            grid-row: 8;
-            background-color: #E8FCE8;
-            margin-top: 50px;
-            padding-left: 10px;
-        }
-        
-        .nine{
-            grid-column: 1;
-            grid-row: 9;
-            background-color: #EBF7EB;
-            margin-top: 50px;
-            padding-left: 10px;
-        }
-        .ten{
-            grid-column: 1;
-            grid-row: 10;
-            margin-top: 50px;
-            margin-bottom: 80px;
-        }
-        td{
-            padding: 5px;
-        }
-        .headerTitles{
-            text-align: center;
-        }
-        .headerAgenda {
-            margin-left: 130;
-        }
-        .timecell{
-            background-color: #E8FCE8;
-            white-space: nowrap;
-            padding-left: 10;
-            padding-right: 10;
-        }
-        
-        .infocell{
-            background-color: #EBF7EB;
-            white-space: nowrap;
-            padding: 0 30 0 20px;
-        }
-        .f{
-            margin-left: 40%;
-        }
-        .menu{
-            background-color: green;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            padding: 20 20 20 20;
-            color: white; 
-        }
-        .menu>span{
-            margin-left: 35%;
-        }
-        .linkbox{
-            background-color: green;
-            position: fixed;
-            bottom: 10;
-            height: 200px;
-            width: 100%;
-            display: none;
-        }
-        li{
-            list-style-type: none;
-            margin-right: 10%;
-            text-align: center;
-            padding-bottom: 5px;
-        }
-        .links{
-            text-decoration: none;
-            color: white;
-        }
-        li>a:hover{
-            color: gray;
-        }
-    }
+@media screen and (max-width: 599px){
+html, body {
+    margin: 0;
+    padding: 0;
+}        
+header {
+
+    background-image: url("header.jpg");
+    height: 150;
+    padding: 30 30 0 30;
+    position: relative;
+    z-index: 1;
+}
+header>p {
+    padding-left: 100px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+}
+.one{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #E8FCE8;  
+    padding: 10%;
+}
+.two{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #EBF7EB; 
+    padding: 10%;
+}
+.three{
+    grid-column: 1;
+    grid-row: 4;
+    padding: 50 50 50 50;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.four{
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.five{
+    grid-column: 1;
+    grid-row: 5;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.six{
+    grid-column: 1;
+    grid-row: 6;
+    background-color: #EBF7EB;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.seven{
+    grid-column: 1;
+    grid-row: 7;
+    background-color: #E8FCE8;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.eight{
+    grid-column: 1;
+    grid-row: 8;
+    background-color: #E8FCE8;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.nine{
+    grid-column: 1;
+    grid-row: 9;
+    background-color: #EBF7EB;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.ten{
+    grid-column: 1;
+    grid-row: 10;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+td{
+    padding: 5px;
+}
+.headerTitles{
+    text-align: center;
+}
+.headerAgenda {
+    margin-left: 130;
+}
+.timecell{
+    background-color: #E8FCE8;
+    white-space: nowrap;
+    padding-left: 10;
+    padding-right: 10;
+}
+.infocell{
+    background-color: #EBF7EB;
+    white-space: nowrap;
+    padding: 0 30 0 20px;
+}
+.f{
+    margin-left: 40%;
+}
+.menu{
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20 20 20 20;
+    color: white; 
+}
+.menu>span{
+    margin-left: 35%;
+}
+.linkbox{
+    background-color: green;
+    position: fixed;
+    bottom: 10;
+    height: 200px;
+    width: 100%;
+    display: none;
+}
+li{
+    list-style-type: none;
+    margin-right: 10%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.links{
+    text-decoration: none;
+    color: white;
+}
+li>a:hover{
+    color: gray;
+}
+}
