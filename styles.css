@@ -295,15 +295,16 @@ html, body {
     padding: 0;
 }        
 header {
-
     background-image: url("header.jpg");
     height: 150;
     padding: 30 30 0 30;
     position: relative;
     z-index: 1;
+    font-size: 10;
 }
 header>p {
-    padding-left: 100px;
+    padding-left: 80px;
+    font-size: 16;
 }
 
 .wrapper{
