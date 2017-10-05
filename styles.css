@@ -291,15 +291,16 @@
         html, body {
             margin: 0;
             padding: 0;
-            font-size: 12px;
         }
-        header {        
+        header {
+                
             background-image: url("header.jpg");
-            height: 300;
-            white-space: nowrap;
-
-            font-size: 12;
-        }   
+            height: 150;
+            padding: 30 30 0 30;
+            position: relative;
+            z-index: 1;
+            font-size: 20;
+        } 
         .wrapper{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
@@ -310,14 +311,26 @@
             grid-row: 1;
             background-color: #E8FCE8;  
             padding: 10%;
+         
           }
         .two{
             grid-column: 1;
             grid-row: 2;
             background-color: #EBF7EB; 
-            padding: 10%;  
+            padding: 10%;
+            
+              
         }
-
+        .three{
+            grid-column: 1;
+            grid-row: 4;
+            padding: 50 50 50 50;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        
         .four{
             grid-column: 1;
             grid-row: 3;
@@ -330,6 +343,7 @@
             margin-top: 50px;
             padding-left: 10px;
         }
+        
         .six{
             grid-column: 1;
             grid-row: 6;
@@ -337,6 +351,7 @@
             margin-top: 50px;
             padding-left: 10px;
         }
+        
         .seven{
             grid-column: 1;
             grid-row: 7;
@@ -344,6 +359,7 @@
             margin-top: 50px;
             padding-left: 10px;
         }
+        
         .eight{
             grid-column: 1;
             grid-row: 8;
@@ -351,6 +367,7 @@
             margin-top: 50px;
             padding-left: 10px;
         }
+        
         .nine{
             grid-column: 1;
             grid-row: 9;
@@ -385,6 +402,9 @@
             white-space: nowrap;
             padding: 0 30 0 20px;
         }
+        .f{
+            margin-left: 40%;
+        }
         .menu{
             background-color: green;
             position: fixed;
@@ -399,14 +419,16 @@
         .linkbox{
             background-color: green;
             position: fixed;
-            bottom: -50;
-            height: 100px;
+            bottom: 10;
+            height: 200px;
             width: 100%;
+            display: none;
         }
         li{
             list-style-type: none;
-            display: inline;
-            margin-left: 12%;
+            margin-right: 10%;
+            text-align: center;
+            padding-bottom: 5px;
         }
         .links{
             text-decoration: none;
