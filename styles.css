@@ -287,7 +287,7 @@
     
     }
     }
-    @media screen and (min-width: 0px) and (max-width: 599px){
+    @media screen and (max-width: 599px){
         html, body {
         margin: 0;
         padding: 0;
