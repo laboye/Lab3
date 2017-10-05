@@ -288,42 +288,7 @@
     }
     }
     @media screen and (max-width: 599px){
-        html, body {
-        margin: 0;
-        padding: 0;
-        font-size: 12px;
-    }
-    header {
-            
-        background-image: url("header.jpg");
-        height: 150;
-        padding: 30 30 0 30;
-        position: relative;
-        z-index: 1;
-        font-size: 12;
-    
-    }
-    
-    .links{
-        text-decoration: none;
-        color: white;
-    }
-    .linkbox{
-        background-color: green;
-        position: fixed;
-        bottom: -50;
-        height: 100px;
-        width: 100%;
-    }
-    li{
-        list-style-type: none;
-        display: inline;
-        margin-left: 12%;
-    }
-    li>a:hover{
-        color: gray;
-    }
-    
+
     .wrapper{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -334,15 +299,12 @@
         grid-row: 1;
         background-color: #E8FCE8;  
         padding: 10%;
-     
       }
     .two{
         grid-column: 1/2;
         grid-row: 2;
         background-color: #EBF7EB; 
-        padding: 10%;
-        
-          
+        padding: 10%;  
     }
     .three{
         grid-column: 1/2;
@@ -353,21 +315,18 @@
         width: 100%;
         height: auto;
     }
-    
     .four{
         grid-column: 1/2;
         grid-row: 3;
         margin-top: 50px;
         padding-left: 10px;
     }
-    
     .five{
         grid-column: 1/2;
         grid-row: 5;
         margin-top: 50px;
         padding-left: 10px;
     }
-    
     .six{
         grid-column: 1/2;
         grid-row: 6;
@@ -375,7 +334,6 @@
         margin-top: 50px;
         padding-left: 10px;
     }
-    
     .seven{
         grid-column: 1/2;
         grid-row: 7;
@@ -383,7 +341,6 @@
         margin-top: 50px;
         padding-left: 10px;
     }
-    
     .eight{
         grid-column: 1/2;
         grid-row: 8;
@@ -391,7 +348,6 @@
         margin-top: 50px;
         padding-left: 10px;
     }
-    
     .nine{
         grid-column: 1/2;
         grid-row: 9;
