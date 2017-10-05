@@ -181,15 +181,7 @@
             background-color: #EBF7EB; 
             padding: 10%;  
         }
-        .three{
-            grid-column: 1;
-            grid-row: 4;
-            padding: 50 50 50 50;
-        }
-        img {
-            width: 100%;
-            height: auto;
-        }
+
         .four{
             grid-column: 1;
             grid-row: 3;
